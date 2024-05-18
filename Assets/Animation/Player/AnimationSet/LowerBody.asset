@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc469987a2c72b4aae7f9aced4bf084, type: 3}
+  m_Name: LowerBody
+  m_EditorClassIdentifier: 
+  avatarMask: {fileID: 31900000, guid: 10d8c76f13511a849b0cffc4fbd29e40, type: 2}
+  clipDatas:
+  - StateName: RollState
+    clip: {fileID: 7400000, guid: 03b899890131c2a44b864059960010b6, type: 2}
+  - StateName: PlayerDeathState
+    clip: {fileID: 7400000, guid: b5d98129daee51c4aba4eaed71df4973, type: 2}
+  blend1DClipDatas:
+  - StateName: JumpState
+    clips:
+    - {fileID: 7400000, guid: 6c9dd6ea43dabc84ea7aacc12137c44b, type: 2}
+    - {fileID: 7400000, guid: 69e56fd23b622bb44a85d192253bf7c2, type: 2}
+    - {fileID: 7400000, guid: 0e7932663ad87a249b6718bb06eabc6d, type: 2}
+    positions:
+    - -1
+    - 0
+    - 1
+  blend2DClipDatas:
+  - StateName: WalkState
+    clips:
+    - {fileID: 7400000, guid: f0c03e1d474bdef4092c0800d35b8f53, type: 2}
+    - {fileID: 7400000, guid: a8994a6f21434984fb67daf1f0176413, type: 2}
+    - {fileID: 7400000, guid: 58908cc762e6b914a949480127e6531d, type: 2}
+    - {fileID: 7400000, guid: c6024ae30118dff44b5a48a0a9086cbe, type: 2}
+    - {fileID: 7400000, guid: 85d7c93a238b88843b5639c4397b38d1, type: 2}
+    - {fileID: 7400000, guid: c7efa27cdfa09734ba31a64b21de4dd2, type: 2}
+    - {fileID: 7400000, guid: 8bdcfdc0400284242b05f86e737df207, type: 2}
+    - {fileID: 7400000, guid: c2525baa272efbb42bc1a2af3f0cbe87, type: 2}
+    - {fileID: 7400000, guid: 7077badbcb3f92a48aedf3df210ba085, type: 2}
+    positions:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: -0.71, y: 0.71}
+    - {x: 0, y: 1}
+    - {x: 0.71, y: 0.71}
+    - {x: 1, y: 0}
+    - {x: 0.71, y: -0.71}
+    - {x: 0, y: -1}
+    - {x: -0.71, y: -0.71}
+  - StateName: RunState
+    clips:
+    - {fileID: 7400000, guid: f0c03e1d474bdef4092c0800d35b8f53, type: 2}
+    - {fileID: 7400000, guid: 6c49fbc8100599844ae5975025ae7828, type: 2}
+    - {fileID: 7400000, guid: b45a996c8d462f6428e428050dc610ff, type: 2}
+    - {fileID: 7400000, guid: cf3dbc283144c2f4fa3bf760ce5f7b89, type: 2}
+    - {fileID: 7400000, guid: f097ece7084f7804483f24dc48f459ed, type: 2}
+    - {fileID: 7400000, guid: a29a98de1c3f04543abad01e5cd2847f, type: 2}
+    - {fileID: 7400000, guid: fcc2e2eaaaec8844f9f5f7bdd667dec0, type: 2}
+    - {fileID: 7400000, guid: 6fb2fe1afd3d1b6469b17204361ef57e, type: 2}
+    - {fileID: 7400000, guid: 703aa5e70b584064ab932374141eab0b, type: 2}
+    positions:
+    - {x: 0, y: 0}
+    - {x: -1, y: 0}
+    - {x: -0.71, y: 0.71}
+    - {x: 0, y: 1}
+    - {x: 0.71, y: 0.71}
+    - {x: 1, y: 0}
+    - {x: 0.71, y: -0.71}
+    - {x: 0, y: -1}
+    - {x: -0.71, y: -0.71}
+  ACs: []

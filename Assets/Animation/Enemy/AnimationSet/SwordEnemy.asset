@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dc469987a2c72b4aae7f9aced4bf084, type: 3}
+  m_Name: SwordEnemy
+  m_EditorClassIdentifier: 
+  avatarMask: {fileID: 31900000, guid: 4a1e85c6225c62d419ada9bee88b3e53, type: 2}
+  clipDatas:
+  - StateName: DeathState
+    clip: {fileID: 7400000, guid: 9011d865581f28b459465d7ecbf2ca1f, type: 2}
+  - StateName: IdleState
+    clip: {fileID: 7400000, guid: daa2847194beeca40b0c5bb217ce0e8b, type: 2}
+  - StateName: RelaxState
+    clip: {fileID: 7400000, guid: 36102ab4ee3e4f1478f4e05a9eed12be, type: 2}
+  - StateName: PatrolState
+    clip: {fileID: 7400000, guid: 11337845f9660804c85dc3a1f1b0072b, type: 2}
+  - StateName: ChaseState
+    clip: {fileID: 7400000, guid: 5be3b7e77ab4dcf42a26320db50a3a66, type: 2}
+  - StateName: SwordEnemyStartState
+    clip: {fileID: 7400000, guid: daa2847194beeca40b0c5bb217ce0e8b, type: 2}
+  blend1DClipDatas: []
+  blend2DClipDatas: []
+  ACs: []

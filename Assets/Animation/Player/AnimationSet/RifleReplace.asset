@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcfc0cf7501c3b40aeedef3155705cc, type: 3}
+  m_Name: RifleReplace
+  m_EditorClassIdentifier: Assembly-CSharp:FSM:ReplaceAnimationClipData
+  replaceName: Rifle
+  clipDatas:
+  - StateName: FiringState
+    clip: {fileID: 7400000, guid: 33198a58451143c4aabda1221f9dcdee, type: 2}
+  - StateName: ReloadState
+    clip: {fileID: 7400000, guid: d31e68b8d10542649b72b14288bd59c0, type: 2}
+  - StateName: AimIdleState
+    clip: {fileID: 7400000, guid: b11588a9e6717044fb5fda77efc52ba4, type: 2}
+  blend1DClipDatas: []
+  blend2DClipDatas: []
+  ACs: []
