@@ -10,10 +10,16 @@
 <img src=".\READMEAssets\MainMenu.png" alt="MainMenu" width="500" />
 </div>
 
-<br> <br>
+<br>
 
 <div align="center">
-<img src=".\READMEAssets\Playing_1.png" alt="Playing_1" width="450" /> <img src=".\READMEAssets\Playing_2.png" alt="Playing_1" width="450" />
+<img src=".\READMEAssets\Playing_1.png" alt="Playing_1" width="500" />
+</div>
+
+<br>
+
+<div align="center">
+<img src=".\READMEAssets\Playing_2.png" alt="Playing_2" width="500" />
 </div>
 
 <br>
@@ -26,9 +32,13 @@
 
 ## 介绍
 
+<br>
+
 动画控制没有用Animator组件，而是用 Playables API 写了一个简易的动画控制器，支持1D和2D动画混合、动画过渡、Avatar Mask以及与Animator Override Controller类似的功能，配合状态机框架实现对玩家和敌人动画状态的控制。 对应的代码位于 Assets\Framework\FSM 中。
 
 参照 QFramework 写的事件系统、MVC框架、对象池、Command，以及这些模块底层的IOCContainer。对应的代码位于 Assets\Framework\CoreFramework 中。
+
+<br>
 
 ## 参考
 
